@@ -2,8 +2,8 @@
 
 ### Description
 
-### Dependant Pull Requests
-> If this PR requires other PRs to be merged before this PR can be merged list them here.
+### Dependent Pull Requests
+> If there are an pull requests that must be merged prior to this pull request, list them here.
 
 ### Checklist
 - [ ] I have checked the code builds without additional compiler warnings.
