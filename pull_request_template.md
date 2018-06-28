@@ -1,16 +1,13 @@
-#Description
+# JIRA Ticket
 
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+# Description
 
-Fixes # (issue)
+# Dependant Pull Requests
+> If this PR requires other PRs to be merged before this PR can be merged write them here
 
-# Checklist:
-
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
+# Checklist
+- [ ] I have checked the code builds without additional compiler warnings.
+- [ ] I have written unit tests which verify the functional behaviour of the new code.
+- [ ] I have checked that all existing unit test still pass (**note** you may need to turn on testing in CMake).
+- [ ] I have referenced any dependent pull requests in other repositories.
+- [ ] I have complied with the software development [style guide](https://google.github.io/styleguide/cppguide.html).
